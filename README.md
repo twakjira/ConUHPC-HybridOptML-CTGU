@@ -1,6 +1,6 @@
 # ConUHPC-HybridOptML-CTGU
 
-Welcome to the ConUHPC-HybridOptML-CTGU repository! ConUHPC-HybridOptML-CTGU is designed to predict the peak and ultimate stress-strain responses of confined Ultra-High Performance Concrete (UHPC) with either normal-strength or high-strength steel reinforcement.
+Welcome to the ConUHPC-HybridOptML-CTGU repository! ConUHPC-HybridOptML-CTGU is designed to provide a rapid, autonomous, and accurate prediction of the stress-strain response of ultra-high performance concrete (UHPC) confined with either normal-strength or high-strength steel reinforcement.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
