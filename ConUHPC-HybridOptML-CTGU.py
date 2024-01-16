@@ -223,7 +223,7 @@ while True:
             sg.popup(f"Error: {e}\n\nInvalid input. Please make sure to enter numeric values.")
             continue
     elif event == 'EMAIL':
-        OpenLink('mailto:tgwakjira@gmail.com')
+        OpenLink('mailto:contact@tadessewakjira.com')
     elif event == 'WEBSITE':
         OpenLink('http://www.tadessewakjira.com/Contact')
 
