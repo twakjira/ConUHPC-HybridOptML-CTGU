@@ -1,51 +1,63 @@
-ConUHPC-HybridOptML-CTGU
-Overview
+# ConUHPC-HybridOptML-CTGU
 
-ConUHPC-HybridOptML-CTGU is a Python-based application designed to predict the peak and ultimate stress-strain responses of confined Ultra-High Performance Concrete (UHPC). This tool is particularly useful for researchers and engineers in the field of civil engineering, providing a quick and efficient way to model UHPC structures.
-Features
+Welcome to the ConUHPC-HybridOptML-CTGU repository! ConUHPC-HybridOptML-CTGU is designed to predict the peak and ultimate stress-strain responses of confined Ultra-High Performance Concrete (UHPC) with either normal-strength or high-strength steel reinforcement.
 
-    User-friendly GUI created with PySimpleGUI.
-    Predictions for peak stress, peak strain, ultimate stress, and ultimate strain of confined UHPC.
-    Input parameters include the shape of the structure, transverse reinforcement ratio, yield strength of transverse reinforcement, compressive strength of unconfined UHPC, fiber volumetric ratio, and effective confinement.
-    Data visualization for stress-strain responses.
+## Table of Contents
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Citing](#citing)
+- [Contact](#contact)
 
-Installation
+## Getting Started
 
-    Ensure you have Python installed on your system.
-    Install required packages: PySimpleGUI, pandas, numpy, PIL, and webbrowser.
-    Download and extract the application files to a directory on your computer.
+### Installation
 
-Usage
+To get started with ConUHPC-HybridOptML-CTGU, you need to have Python and required libraries installed on your system. You can install the required libraries using the following command:
 
-    Run the main script to open the application interface.
-    Enter the required parameters in the respective fields.
-    Click 'Predict' to view the predicted stress-strain responses.
-    The results, including peak stress and strain, ultimate stress and strain, will be displayed in the output section.
 
-Data Files
+### Running the Application
 
+To successfully run the ConUHPC-HybridOptML-CTGU application, please follow these steps:
+
+1. **Install Python**
+   - Ensure Python is installed on your system. If not, you can download and install it from the [official Python website](https://www.python.org/).
+
+2. **Install Required Libraries**
+   - Install the necessary Python libraries by opening your terminal or command prompt and running the following command:
+     ```bash
+     pip install pandas numpy matplotlib scikit-learn xgboost PySimpleGUI Pillow
+     ```
+
+3. **Download the Application Script**
+   - Download the `ConUHPC-HybridOptML-CTGU.py` script to your local machine.
+
+4. **Download the Resources Folder**
+   - Also, download the following files from the "database" folder and save them in the same directory as the `ConUHPC-HybridOptML-CTGU.py` script.
     comb_data_ecc_USED.xlsx
     comb_data_ecu_USED.xlsx
     comb_data_fcc_USED.xlsx
     comb_data_fcu_USED.xlsx
 
-These files contain the necessary data for the model to function correctly. Ensure they are located in the same directory as the script.
-Images
+5. **Open Your Python Environment**
+   - Launch your preferred Python environment. This could be an Integrated Development Environment (IDE) like PyCharm or Visual Studio Code.
 
-    stress_strain.png, image2.png, image4.png: These images are used within the GUI for illustration and instruction purposes.
+6. **Load the Script**
+   - In your Python environment, open the `ConUHPC-HybridOptML-CTGU.py` script.
 
-Dependencies
+7. **Run the Application**
+   - Execute the script to start the application. This is typically done by pressing a 'Run' button in IDEs or using a run command in the console.
 
-    Python 3.x
-    Libraries: PySimpleGUI, pandas, numpy, pickle, PIL, webbrowser
+Following these instructions will enable you to run the ConUHPC-HybridOptML-CTGU.py application in any compatible Python environment.
 
-Contact Information
+## Citing
 
-For queries or feedback, please contact the authors:
+If you use this tool for your work, we kindly request that you cite the corresponding paper as a reference.
 
-    Tadesse G. Wakjira: tgwakjira@gmail.com
-    M. Shahria Alam: https://alams.ok.ubc.ca
+`[Link to Paper]`
 
-Acknowledgements
+## Contact
 
-If you utilize this software in your work, kindly cite the corresponding paper as a reference.
+For inquiries, assistance, or feedback, feel free to reach out through one of the following methods:
+- [Contact Form](https://www.tadessewakjira.com/Contact)
+- [Email](mailto:contact@tadessewakjira.com)
